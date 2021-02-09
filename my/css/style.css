@@ -1,0 +1,424 @@
+@font-face {
+    font-family:Myfont;
+    src:url("../fonts/Roboto-Light.ttf")
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Myfont;
+}
+
+html {
+    font-size: 16px;
+    font-family: Myfont;
+}
+
+section {
+    min-width: 100vw;
+    min-height: 100vh;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+
+#mapp {
+    height: 60vh;
+    width: 100vw;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.7rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+p {
+    font-size: 1rem;
+    opacity: 0.7;
+}
+
+li {
+    font-size: 1rem;
+}
+
+nav {
+    color: black;
+}
+
+
+nav a {
+    color: #fff !important;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    min-height: 80vh;
+    min-width: 100vw;
+}
+
+header p {
+    opacity: 0.7;
+}
+
+
+.header-layer {
+    background: linear-gradient(225deg, #333 0%,#222 100%);
+    -webkit-box-shadow: 0px 0px 8px 2px #326;
+    -moz-box-shadow: 0px 0px 8px 2px #326;
+    box-shadow: 0px 0px 8px 2px #111;
+    color: #fff;
+    height: 80vh;
+    width: 100vw;
+    margin: auto;
+}
+
+#img-hero {
+    display: none;
+}
+
+
+.hcan {
+    color: #fff;
+    min-width: 100%;
+}
+
+.hcan p {
+    opacity: 0.7;
+}
+
+#buton {
+    background-color: teal;
+}
+
+.child {
+    width: 80%;
+    text-align: center;
+}
+
+.child1 {
+    margin-left: 10%;
+    text-align: left;
+}
+
+.child2 {}
+
+.child img {
+    width: 80%;
+}
+
+.intro {
+    text-align: center;
+}
+
+.main-sec1 {
+    width: 80vw;
+    margin: auto;
+}
+
+.main-sec1-image {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.main-sec1-text {
+    width: 40%;
+    margin: auto;
+}
+
+
+.pics {
+    width: 80vw;
+    margin: auto;
+}
+
+.pic {
+    width: 100%;
+    margin: auto;
+}
+
+.pic img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    width: 100vw;
+    color: #888;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-child {
+    margin: auto;
+    margin-bottom: 10vh;
+    max-width: 80%;
+}
+
+.footer-child img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+
+.gframer {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #222;
+    color: #eee;
+}
+
+.gframe {
+    width: 80vw;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.gimage {
+    width: 100%;
+    height: auto;
+}
+
+.biggal {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.biggal img {
+    max-width: 80%;
+    height: auto;
+}
+
+.comment {
+    border-radius: 15px;
+    background-color: #eee;
+    margin: 4px auto 3px auto;
+    min-width: 80vw;
+    min-height: 12vh;
+}
+
+.comment h5 {
+    font-weight: 600;
+    text-align: left;
+    margin-left: 2px;
+}
+
+@media screen and (min-width:800px) {
+
+    section {
+        min-width: 100vw;
+        min-height: 100vh;
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    #mapp {
+        min-height: 100vh;
+        min-width: 100vw;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1.3rem;
+        margin: 0;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    li {
+        font-size: 1rem;
+    }
+
+    nav {
+        color: black;
+    }
+
+
+    nav a {
+        color: #fff !important;
+    }
+
+    header {
+        color: #fff;
+        min-height: 100vh;
+        min-width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .header-layer {
+        -webkit-box-shadow: 0px 0px 8px 2px #326;
+        -moz-box-shadow: 0px 0px 8px 2px #326;
+        box-shadow: 0px 0px 8px 2px #111;
+        color: #fff;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .hcan {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 100%;
+    }
+
+    #buton {
+        background-color: teal;
+    }
+    /*.overlay {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 1;
+}*/
+
+    .child {}
+
+    .child1 {
+        text-align: left;
+        width: 40%;
+    }
+
+    .child2 {
+        width: 40%;
+    }
+
+    .child img {
+        width: 80%;
+    }
+
+    .intro {
+        text-align: center;
+    }
+
+    .main-sec1 {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 66.6vh;
+        width: 66.6vw;
+        margin: auto;
+    }
+
+    .main-sec1-image {
+        width: 40%;
+        height: 80%;
+        margin: auto;
+    }
+
+    .main-sec1-text {
+        width: 40%;
+        margin: auto;
+    }
+
+
+    .pics {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 66.6vh;
+        width: 66.6vw;
+        margin: auto;
+
+    }
+
+    .pic {
+        width: 30%;
+        height: 80%;
+        margin: auto;
+    }
+
+    .pic img {
+        width: 100%;
+        height: 100%;
+    }
+
+    footer {
+        width: 100vw;
+        color: #fff;
+        background-color: #222;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-child {
+        width: 30%;
+        height: auto;
+        margin: auto;
+    }
+
+    .footer-child img {
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+
+
+
+    .gframer {
+        min-height: 100vh;
+        min-width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #222;
+        color: #eee;
+    }
+
+    .gframe {
+        width: 31vw;
+        height: 45vh;
+        margin: auto;
+        margin-top: 5%;
+    }
+
+    .gimage {
+        width: 100%;
+        height: 90%;
+    }
+}
